@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scientist-research-taste"
+version = "0.1.0"
+description = "Multi-scientist research taste evaluation system with 20+ profiles spanning classical giants, Nobel laureates, and active PIs"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+    "openai>=1.50.0",
+    "pydantic>=2.0",
+    "requests>=2.31",
+    "pyyaml>=6.0",
+    "rich>=13.0",
+    "click>=8.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.1"]
+
+[project.scripts]
+scientist-taste = "scientist_taste.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["scientist_taste*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
