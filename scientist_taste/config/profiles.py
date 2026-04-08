@@ -226,15 +226,190 @@ YAMANAKA = ScientistProfile(
 # ALL PROFILES REGISTRY
 # ══════════════════════════════════════════════════════════════════════════════
 
+# ══════════════════════════════════════════════════════════════════════════════
+# REPRESENTATIVE PIs (based on documented research philosophies)
+# ══════════════════════════════════════════════════════════════════════════════
+
+URI_ALON = ScientistProfile(
+    id="uri_alon", name="Uri Alon", name_cn="乌里·阿隆",
+    years="b.1969", field="Systems Biology", level="pi",
+    axes=[
+        TasteAxis(name="design_principle_seeking", weight=0.90, description="Find engineering-like principles in biology", keywords=["motif", "principle", "design", "circuit"]),
+        TasteAxis(name="embrace_uncertainty", weight=0.85, description="The 'cloud' of confusion is generative", keywords=["cloud", "uncertainty", "confusion", "creative"]),
+        TasteAxis(name="feasibility_interest_balance", weight=0.85, description="Evaluate problems on how-hard vs how-interesting", keywords=["feasible", "interesting", "choose problem"]),
+        TasteAxis(name="nurturing_pedagogy", weight=0.80, description="Emotional well-being as research methodology", keywords=["nurture", "mentor", "emotional", "lab culture"]),
+    ],
+    style_description="Find engineering principles in biological networks. Embrace the 'cloud' of uncertainty.",
+    style_description_cn="在生物网络中寻找工程原理。拥抱不确定性的'迷雾'。",
+    would_love=["design principles in biology", "well-chosen problems", "creative uncertainty"],
+    would_dislike=["avoiding confusion", "purely incremental work"],
+    key_evidence=["Network motifs", "How to Choose a Good Problem (Mol Cell)", "TED talk on the 'cloud'"],
+)
+
+TERENCE_TAO = ScientistProfile(
+    id="terence_tao", name="Terence Tao", name_cn="陶哲轩",
+    years="b.1975", field="Mathematics", level="pi",
+    axes=[
+        TasteAxis(name="multi_perspectival", weight=0.95, description="View every result from as many angles as possible", keywords=["multiple perspectives", "angles", "heuristic", "rigorous"]),
+        TasteAxis(name="boundary_probing", weight=0.90, description="Select problems just beyond current tools", keywords=["boundary", "just beyond", "stretch"]),
+        TasteAxis(name="simplification", weight=0.85, description="Find the right objects to reduce complexity", keywords=["simplify", "reduce", "right abstraction"]),
+        TasteAxis(name="process_transparency", weight=0.80, description="Document how you actually approach problems", keywords=["process", "transparent", "approach"]),
+    ],
+    style_description="Multi-perspectival mathematician. Problems just beyond reach. Transparent process.",
+    style_description_cn="多角度数学家。选择刚好超出能力范围的问题。过程透明。",
+    would_love=["multi-view solutions", "elegant abstractions", "broad collaboration"],
+    would_dislike=["single-perspective approaches", "opaque reasoning"],
+    key_evidence=["Green-Tao theorem", "Fields Medal 2006", "'What is Good Mathematics?' (AMS Bull)"],
+)
+
+CHRIS_OLAH = ScientistProfile(
+    id="chris_olah", name="Chris Olah", name_cn="克里斯·奥拉",
+    years="b.1990s", field="AI Interpretability", level="pi",
+    axes=[
+        TasteAxis(name="clarity_as_output", weight=0.95, description="Understand clearly and explain well", keywords=["clarity", "understand", "explain", "visualize"]),
+        TasteAxis(name="taste_over_technique", weight=0.90, description="Problem selection > execution skill", keywords=["taste", "problem selection", "what to work on"]),
+        TasteAxis(name="visualization_first", weight=0.85, description="Visual/geometric intuition as primary tool", keywords=["visual", "geometric", "diagram", "picture"]),
+        TasteAxis(name="non_credentialist", weight=0.80, description="Ideas matter more than pedigree", keywords=["ideas", "non-credentialist", "substance"]),
+    ],
+    style_description="Clarity is the research output. Taste > technique. Visualization-first understanding.",
+    style_description_cn="清晰度就是研究成果。品味 > 技巧。可视化优先的理解方式。",
+    would_love=["clear explanations", "visual understanding", "good problem selection"],
+    would_dislike=["opaque models", "credential-based authority", "performance-only optimization"],
+    key_evidence=["colah.github.io/notes/taste", "Feature visualization research", "Circuits interpretability"],
+)
+
+MANU_PRAKASH = ScientistProfile(
+    id="manu_prakash", name="Manu Prakash", name_cn="马努·普拉卡什",
+    years="b.1980", field="Frugal Science/Bioengineering", level="pi",
+    axes=[
+        TasteAxis(name="cost_as_design_parameter", weight=0.95, description="Affordability is a creative driver", keywords=["cost", "affordable", "frugal", "cheap"]),
+        TasteAxis(name="access_first", weight=0.90, description="What if 1 billion people can use this?", keywords=["access", "global", "billion", "resource-limited"]),
+        TasteAxis(name="physics_of_everyday", weight=0.85, description="Deep physics in mundane phenomena", keywords=["everyday", "mundane", "paper", "folding"]),
+        TasteAxis(name="no_compromise_frugality", weight=0.85, description="Frugal does not mean inferior", keywords=["optimal", "no compromise", "performance"]),
+    ],
+    style_description="Frugal science: cost as a creative driver. Optimal performance at radical cost reduction.",
+    style_description_cn="节俭科学：成本作为创造性驱动力。以激进的成本削减实现最优性能。",
+    would_love=["$1 solutions to $10000 problems", "physics of everyday objects", "global access"],
+    would_dislike=["expensive-only solutions", "ignoring resource-limited settings"],
+    key_evidence=["Foldscope ($1 microscope)", "Paperfuge (20-cent centrifuge)", "HHMI investigator"],
+)
+
+SARA_WALKER = ScientistProfile(
+    id="sara_walker", name="Sara Walker", name_cn="萨拉·沃克",
+    years="b.1980s", field="Origin of Life/Theoretical Physics", level="pi",
+    axes=[
+        TasteAxis(name="theory_first", weight=0.95, description="Biology needs new physics, not just more chemistry", keywords=["theory", "physics for biology", "framework"]),
+        TasteAxis(name="question_redefinition", weight=0.90, description="Reframe the question as the contribution", keywords=["redefine", "reframe", "new question"]),
+        TasteAxis(name="radical_interdisciplinarity", weight=0.85, description="Merge physics, chemistry, philosophy, CS", keywords=["interdisciplinary", "merge", "bridge"]),
+        TasteAxis(name="outsider_perspective", weight=0.85, description="Physicist entering biology brings new tools", keywords=["outsider", "new perspective", "different tools"]),
+    ],
+    style_description="Where's the theory? Physicist building new theoretical frameworks for life's origins.",
+    style_description_cn="理论在哪里？物理学家为生命起源构建新的理论框架。",
+    would_love=["new theoretical frameworks", "redefining questions", "cross-field synthesis"],
+    would_dislike=["pure wet-lab without theory", "working within existing frameworks only"],
+    key_evidence=["Assembly theory (with Cronin)", "Santa Fe Institute", "Life as No One Knows It (2024)"],
+)
+
+JOHN_JUMPER = ScientistProfile(
+    id="john_jumper", name="John Jumper", name_cn="约翰·坚普",
+    years="b.1985", field="AI for Structural Biology", level="pi",
+    axes=[
+        TasteAxis(name="domain_knowledge_injection", weight=0.95, description="Build physics into the architecture", keywords=["domain knowledge", "physics-aware", "constraint"]),
+        TasteAxis(name="problem_driven_engineering", weight=0.90, description="Novel architecture for novel problem", keywords=["problem-driven", "novel architecture", "custom"]),
+        TasteAxis(name="iterative_architecture", weight=0.85, description="Feedback loops > one-directional pipelines", keywords=["iterative", "feedback", "refinement"]),
+        TasteAxis(name="computation_as_biology", weight=0.85, description="Computation genuinely solves biology", keywords=["computational biology", "solve", "prediction"]),
+    ],
+    style_description="Build physics into the neural network. Novel problems need novel architectures.",
+    style_description_cn="将物理学嵌入神经网络。新问题需要新架构。",
+    would_love=["domain-aware ML architectures", "physics-constrained models", "biology-solving computation"],
+    would_dislike=["off-the-shelf models for unique problems", "ignoring domain structure"],
+    key_evidence=["AlphaFold2 (2021)", "Nobel Chemistry 2024", "Evoformer architecture"],
+)
+
+CAROLYN_BERTOZZI = ScientistProfile(
+    id="carolyn_bertozzi", name="Carolyn Bertozzi", name_cn="卡罗琳·贝尔托齐",
+    years="b.1966", field="Chemical Biology", level="pi",
+    axes=[
+        TasteAxis(name="in_vivo_constraint_creativity", weight=0.95, description="Living systems constraint as design space", keywords=["in vivo", "living system", "biocompatible", "bioorthogonal"]),
+        TasteAxis(name="tool_building_for_biology", weight=0.90, description="Chemistry tools for biological questions", keywords=["tool", "chemistry for biology", "probe"]),
+        TasteAxis(name="selectivity_obsession", weight=0.85, description="Zero side-reactivity with natural molecules", keywords=["selective", "specific", "orthogonal", "no side reaction"]),
+        TasteAxis(name="iterative_improvement", weight=0.80, description="Systematically remove each practical limitation", keywords=["improve", "iterate", "remove limitation"]),
+    ],
+    style_description="Invented chemistry that works inside living organisms. Constraint as creative space.",
+    style_description_cn="发明了在活体内工作的化学。约束即创造空间。",
+    would_love=["bioorthogonal reactions", "in-vivo compatible tools", "systematic improvement"],
+    would_dislike=["flask-only chemistry", "ignoring biological compatibility"],
+    key_evidence=["Bioorthogonal chemistry", "Click chemistry (Nobel 2022)", "Glycan imaging in live organisms"],
+)
+
+REDIET_ABEBE = ScientistProfile(
+    id="rediet_abebe", name="Rediet Abebe", name_cn="雷迪特·阿贝贝",
+    years="b.1991", field="CS/Algorithmic Fairness", level="pi",
+    axes=[
+        TasteAxis(name="equity_as_objective", weight=0.95, description="Fairness is the optimization target", keywords=["equity", "fairness", "justice", "inequality"]),
+        TasteAxis(name="deeply_interdisciplinary", weight=0.90, description="Computational work informed by social science", keywords=["interdisciplinary", "social", "community"]),
+        TasteAxis(name="harm_aware", weight=0.85, description="Model negative consequences of algorithms", keywords=["harm", "consequence", "negative impact"]),
+        TasteAxis(name="community_building", weight=0.85, description="Creating research communities as scholarship", keywords=["community", "conference", "organize"]),
+    ],
+    style_description="Algorithms where fairness is the objective function. Community-building as research.",
+    style_description_cn="以公平为目标函数的算法。社区建设即研究。",
+    would_love=["equity-focused algorithms", "community-engaged research", "interdisciplinary grounding"],
+    would_dislike=["ignoring social impact", "abstract bounds without real-world grounding"],
+    key_evidence=["MD4SG (Mechanism Design for Social Good)", "ACM EAAMO conference", "Quanta Magazine profile"],
+)
+
+SUBHASH_KHOT = ScientistProfile(
+    id="subhash_khot", name="Subhash Khot", name_cn="苏巴什·科特",
+    years="b.1978", field="Computational Complexity", level="pi",
+    axes=[
+        TasteAxis(name="conjecture_as_contribution", weight=0.95, description="Posing the right question > solving existing ones", keywords=["conjecture", "question", "framing"]),
+        TasteAxis(name="boundary_mapping", weight=0.90, description="Delineate tractable vs intractable precisely", keywords=["boundary", "tractable", "hardness"]),
+        TasteAxis(name="long_horizon_conviction", weight=0.85, description="Pursue ideas for years despite divided opinion", keywords=["conviction", "long-term", "persist"]),
+        TasteAxis(name="cross_area_bridge", weight=0.80, description="Connect complexity with analysis and geometry", keywords=["bridge", "connect", "analysis", "geometry"]),
+    ],
+    style_description="The right question is more valuable than solving the wrong one. Conjecture as contribution.",
+    style_description_cn="提出正确的问题比解决错误的问题更有价值。猜想即贡献。",
+    would_love=["right questions over quick answers", "hardness-approximation connections"],
+    would_dislike=["avoiding hard open questions", "narrow technical contributions"],
+    key_evidence=["Unique Games Conjecture (2002)", "Nevanlinna Prize 2014", "MacArthur Fellow"],
+)
+
+DANIELA_WITTEN = ScientistProfile(
+    id="daniela_witten", name="Daniela Witten", name_cn="丹妮拉·威滕",
+    years="b.1985", field="Statistical ML/Biostatistics", level="pi",
+    axes=[
+        TasteAxis(name="scientist_question_driven", weight=0.90, description="Methods from what scientists need to ask", keywords=["scientist-driven", "collaboration", "real question"]),
+        TasteAxis(name="structure_exploitation", weight=0.90, description="Leverage data structure, not brute force", keywords=["structure", "exploit", "leverage"]),
+        TasteAxis(name="inferential_rigor", weight=0.85, description="Formal inference for exploratory methods", keywords=["inference", "rigorous", "selective", "valid"]),
+        TasteAxis(name="broad_communication", weight=0.80, description="Textbooks as first-class research", keywords=["textbook", "communicate", "accessible"]),
+    ],
+    style_description="Methods driven by what scientists actually need. Formal inference meets exploration.",
+    style_description_cn="方法由科学家的实际需求驱动。形式推断与探索的结合。",
+    would_love=["scientist-motivated methods", "structure-exploiting algorithms", "accessible teaching"],
+    would_dislike=["methods without scientific motivation", "brute-force approaches"],
+    key_evidence=["ISLR textbook (co-author)", "Selective inference framework", "COPSS Presidents' Award 2020"],
+)
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ALL PROFILES REGISTRY
+# ══════════════════════════════════════════════════════════════════════════════
+
 ALL_PROFILES: dict[str, ScientistProfile] = {
     p.id: p for p in [
+        # Classical Giants
         EINSTEIN, FEYNMAN, NEWTON, MENDEL, GALILEO,
+        # Nobel Laureates
         DOUDNA, HINTON, KARIKO, PENROSE, YAMANAKA,
+        # Representative PIs (with documented research philosophies)
+        URI_ALON, TERENCE_TAO, CHRIS_OLAH, MANU_PRAKASH, SARA_WALKER,
+        JOHN_JUMPER, CAROLYN_BERTOZZI, REDIET_ABEBE, SUBHASH_KHOT, DANIELA_WITTEN,
     ]
 }
 
 CLASSICAL = [EINSTEIN, FEYNMAN, NEWTON, MENDEL, GALILEO]
 NOBEL = [DOUDNA, HINTON, KARIKO, PENROSE, YAMANAKA]
+PI = [URI_ALON, TERENCE_TAO, CHRIS_OLAH, MANU_PRAKASH, SARA_WALKER,
+      JOHN_JUMPER, CAROLYN_BERTOZZI, REDIET_ABEBE, SUBHASH_KHOT, DANIELA_WITTEN]
 
 def get_profile(scientist_id: str) -> ScientistProfile | None:
     return ALL_PROFILES.get(scientist_id.lower())
