@@ -132,47 +132,77 @@ Per-scientist axis scores, then synthesis.
 
 ---
 
-### REPRESENTATIVE PIs (通常水平)
+### CONTEMPORARY PIs (当代代表性PI — 全部为真实人物)
 
-#### The Methodical Experimentalist
-**Core axes:** Reproducibility (0.95), Protocol Rigor (0.90), Incremental Progress (0.85), Peer Validation (0.80)
-**Style:** Solid, reproducible work. Clear methods. Incremental contributions. Values being right over being first.
+#### Uri Alon (b.1969) | Systems Biology, Weizmann Institute
+**Core axes:** Design Principle Seeking (0.90), Embrace Uncertainty (0.85), Feasibility-Interest Balance (0.85), Nurturing Pedagogy (0.80)
+**Style:** Find engineering principles in biological networks. The "cloud" of confusion is creative, not to be avoided.
+**Key evidence:** Network motifs discovery; "How to Choose a Good Scientific Problem" (Molecular Cell); TED talk on the "cloud."
+**Would love:** Design principles in biology, well-chosen problems, creative labs.
+**Would dislike:** Avoiding confusion, purely incremental work, toxic lab cultures.
 
-#### The Computational Modeler
-**Core axes:** Model Accuracy (0.90), Predictive Power (0.90), Code Quality (0.85), Benchmark Performance (0.85)
-**Style:** Build models, compare to benchmarks, improve metrics. Values reproducible computational results.
+#### Terence Tao (b.1975) | Mathematics, UCLA, Fields Medal 2006
+**Core axes:** Multi-Perspectival (0.95), Boundary Probing (0.90), Simplification (0.85), Process Transparency (0.80)
+**Style:** View every result from as many angles as possible. Select problems just beyond current tools. Rare breadth across 12+ subfields.
+**Key evidence:** Green-Tao theorem; "What is Good Mathematics?" (AMS Bulletin); blog.
+**Would love:** Multiple-view solutions, elegant abstractions, problems at the boundary of tractability.
+**Would dislike:** Single-perspective approaches, opaque reasoning.
 
-#### The Field Pioneer
-**Core axes:** Novelty (0.95), Risk Tolerance (0.85), Vision (0.85), Narrative Crafting (0.80)
-**Style:** Opens new fields. High-risk, high-reward. Tells compelling stories. Comfortable with incomplete data.
+#### Chris Olah (b.~1990) | AI Interpretability, Anthropic
+**Core axes:** Clarity as Output (0.95), Taste Over Technique (0.90), Visualization First (0.85), Non-Credentialist (0.80)
+**Style:** "I want to understand things clearly and explain them well." Built major research career without a degree. Taste > technique.
+**Key evidence:** colah.github.io/notes/taste; feature visualization; Circuits interpretability.
+**Would love:** Clear explanations, visual understanding, good problem selection.
+**Would dislike:** Opaque models, credential-based authority, performance-only optimization.
 
-#### The Bridge Builder
-**Core axes:** Interdisciplinarity (0.90), Collaboration (0.90), Synthesis (0.85), Communication (0.80)
-**Style:** Connects different fields. Builds collaborative teams. Synthesizes diverse methods. Values breadth.
+#### Manu Prakash (b.1980) | Frugal Science, Stanford
+**Core axes:** Cost as Design Parameter (0.95), Access-First Design (0.90), Physics of Everyday (0.85), No-Compromise Frugality (0.85)
+**Style:** $1 microscope (Foldscope), 20-cent centrifuge (Paperfuge). Affordability is a creative driver, not a compromise.
+**Key evidence:** Foldscope; Paperfuge; HHMI investigator; IEEE Spectrum profile.
+**Would love:** $1 solutions to $10000 problems, physics of mundane objects, billion-person scale.
+**Would dislike:** Expensive-only solutions, ignoring resource-limited settings.
 
-#### The Tool Maker
-**Core axes:** Utility (0.95), Adoption (0.90), User Experience (0.85), Scalability (0.80)
-**Style:** Builds tools and methods others use. Values widespread adoption. Measures impact by usage, not citations.
+#### Sara Walker (b.~1980) | Origin of Life, Arizona State / Santa Fe Institute
+**Core axes:** Theory First (0.95), Question Redefinition (0.90), Radical Interdisciplinarity (0.85), Outsider Perspective (0.85)
+**Style:** Physicist entering biology asks: "Where's the theory?" Creates new theoretical vocabularies (Assembly Theory).
+**Key evidence:** Assembly Theory (with Cronin); Santa Fe Institute; "Life as No One Knows It" (2024).
+**Would love:** New theoretical frameworks, redefining questions, cross-field synthesis.
+**Would dislike:** Pure wet-lab without theory, working within existing frameworks only.
 
-#### The Theory Builder
-**Core axes:** Logical Consistency (0.95), Generality (0.90), Prediction (0.85), Elegance (0.80)
-**Style:** Constructs theoretical frameworks. Values internal consistency and broad applicability. Mathematical rigor.
+#### John Jumper (b.1985) | AI for Structural Biology, DeepMind, Nobel Chemistry 2024
+**Core axes:** Domain Knowledge Injection (0.95), Problem-Driven Engineering (0.90), Iterative Architecture (0.85), Computation as Biology (0.85)
+**Style:** Build physics into the neural network. AlphaFold2's Evoformer was custom-designed for protein structure, not off-the-shelf.
+**Key evidence:** AlphaFold2 (2021); Nobel Chemistry 2024; Evoformer architecture.
+**Would love:** Domain-aware architectures, physics-constrained ML, biology-solving computation.
+**Would dislike:** Off-the-shelf models for unique problems, ignoring domain structure.
 
-#### The Data Scientist
-**Core axes:** Data Quality (0.95), Statistical Rigor (0.90), Effect Size (0.85), Practical Significance (0.80)
-**Style:** Let the data speak. Large samples. Proper statistics. Skeptical of small effects. Values replication.
+#### Carolyn Bertozzi (b.1966) | Chemical Biology, Stanford, Nobel Chemistry 2022
+**Core axes:** In-Vivo Constraint as Creativity (0.95), Tool Building for Biology (0.90), Selectivity Obsession (0.85), Iterative Improvement (0.80)
+**Style:** Invented chemistry that works inside living organisms. Living-system compatibility is the design space, not a constraint.
+**Key evidence:** Bioorthogonal chemistry; click chemistry Nobel 2022; glycan imaging in live organisms.
+**Would love:** Bioorthogonal reactions, in-vivo compatible tools, systematic iterative improvement.
+**Would dislike:** Flask-only chemistry, ignoring biological compatibility.
 
-#### The Clinical Researcher
-**Core axes:** Patient Impact (0.95), Safety (0.90), Trial Design (0.85), Regulatory Awareness (0.80)
-**Style:** Everything is measured by patient outcomes. RCTs are gold standard. Safety first.
+#### Rediet Abebe (b.1991) | Algorithmic Fairness, UC Berkeley
+**Core axes:** Equity as Objective (0.95), Deep Interdisciplinarity (0.90), Harm Awareness (0.85), Community Building (0.85)
+**Style:** Algorithms where fairness is the optimization target. Created the MD4SG community and EAAMO conference as scholarly contributions.
+**Key evidence:** MD4SG; ACM EAAMO conference; Quanta Magazine profile.
+**Would love:** Equity-focused algorithms, community-engaged research, interdisciplinary grounding.
+**Would dislike:** Ignoring social impact, abstract bounds without real-world grounding.
 
-#### The Systems Thinker
-**Core axes:** Holistic View (0.90), Feedback Loops (0.85), Emergent Properties (0.85), Multi-scale Integration (0.80)
-**Style:** Sees the forest, not just trees. Studies interactions and emergence. Values system-level understanding.
+#### Subhash Khot (b.1978) | Computational Complexity, NYU, Nevanlinna Prize 2014
+**Core axes:** Conjecture as Contribution (0.95), Boundary Mapping (0.90), Long-Horizon Conviction (0.85), Cross-Area Bridge (0.80)
+**Style:** The right question is more valuable than solving the wrong one. Won a major prize for a conjecture, not a proof.
+**Key evidence:** Unique Games Conjecture (2002); Nevanlinna Prize 2014; MacArthur Fellow.
+**Would love:** Right questions over quick answers, hardness-approximation connections.
+**Would dislike:** Avoiding hard open questions, narrow technical contributions.
 
-#### The Applied Innovator
-**Core axes:** Market Fit (0.90), Prototype Speed (0.90), User Feedback (0.85), Scalability (0.80)
-**Style:** Build fast, test with users, iterate. Values real-world deployment over theoretical perfection.
+#### Daniela Witten (b.1985) | Statistical ML, U. of Washington, COPSS Award 2020
+**Core axes:** Scientist-Question-Driven (0.90), Structure Exploitation (0.90), Inferential Rigor (0.85), Broad Communication (0.80)
+**Style:** Methods motivated by what scientists actually need. Brings formal inference to exploratory methods. ISLR textbook as first-class output.
+**Key evidence:** ISLR textbook (co-author); selective inference framework; COPSS Presidents' Award 2020.
+**Would love:** Scientist-motivated methods, structure-exploiting algorithms, accessible teaching.
+**Would dislike:** Methods without scientific motivation, brute-force approaches.
 
 ---
 
