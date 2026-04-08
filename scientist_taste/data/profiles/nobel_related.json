@@ -1,0 +1,30 @@
+{
+  "doudna_2020": {
+    "title": "Nobel Prize in Chemistry",
+    "extract": "The Nobel Prize in Chemistry is awarded annually by the Royal Swedish Academy of Sciences to scientists in the various fields of chemistry. It is one of the five Nobel Prizes established by the will of Alfred Nobel in 1895, awarded for outstanding contributions in chemistry, physics, literature, peace, and physiology or medicine. This award is administered by the Nobel Foundation and awarded by the Royal Swedish Academy of Sciences on proposal of the Nobel Committee for Chemistry, which consists of five members elected by the academy. The award is presented in Stockholm at an annual ceremony on December 10, the anniversary of Nobel's death."
+  },
+  "hinton_2024": {
+    "title": "CRISPR gene editing",
+    "extract": "CRISPR gene editing is a genetic engineering technique in molecular biology by which the genomes of living organisms may be modified. It is based on a simplified version of the bacterial CRISPR-Cas9 antiviral defense system. By delivering the Cas9 nuclease complexed with a synthetic guide RNA (gRNA) into a cell, the cell's genome can be cut at a desired location, allowing existing genes to be removed or new ones added in vivo(\"within the living\")."
+  },
+  "kariko_mRNA": {
+    "title": "MRNA vaccine",
+    "extract": "An mRNA vaccine is a type of vaccine that uses a copy of a molecule called messenger RNA (mRNA) to produce an immune response. The vaccine delivers molecules of antigen-encoding mRNA into cells, which use the designed mRNA as a blueprint to build foreign protein that would normally be produced by a pathogen or by a cancer cell. These protein molecules stimulate an adaptive immune response that teaches the body to identify and destroy the corresponding pathogen or cancer cells. The mRNA is delivered by a co-formulation of the RNA encapsulated in lipid nanoparticles that protect the RNA strands and help their absorption into the cells."
+  },
+  "penrose_singularity": {
+    "title": "Penrose–Hawking singularity theorems",
+    "extract": "The Penrose–Hawking singularity theorems are a set of results in general relativity that attempt to answer the question of when gravitation produces singularities. The Penrose singularity theorem is a theorem in semi-Riemannian geometry and its general relativistic interpretation predicts a gravitational singularity in black hole formation. The Hawking singularity theorem is based on the Penrose theorem and it is interpreted as a gravitational singularity in the Big Bang situation. Penrose shared half of the Nobel Prize in Physics in 2020 \"for the discovery that black hole formation is a robust prediction of the general theory of relativity\"."
+  },
+  "yamanaka_ipsc": {
+    "title": "Induced pluripotent stem cell",
+    "extract": "Induced pluripotent stem cells are a type of pluripotent stem cell that can be generated directly from a somatic cell. The iPSC technology was pioneered by Shinya Yamanaka and Kazutoshi Takahashi in Kyoto, Japan, who together showed in 2006 that the introduction of four specific genes, collectively known as Yamanaka factors, encoding transcription factors could convert somatic cells into pluripotent stem cells. Shinya Yamanaka was awarded the 2012 Nobel Prize along with Sir John Gurdon \"for the discovery that mature cells can be reprogrammed to become pluripotent.\""
+  },
+  "bertozzi_click": {
+    "title": "Click chemistry",
+    "extract": "Click chemistry is an approach to chemical synthesis that is used to join two molecules. Clicking refers to an emphasis on efficiency and simplicity. To link two molecular components, each is first fitted with appropriate functional groups, such as azide and alkyne groups. These components are then \"clicked\" together in a process that is highly favorable and which tolerates many functional groups that might complicate other coupling processes."
+  },
+  "jumper_alphafold": {
+    "title": "AlphaFold",
+    "extract": "AlphaFold is an artificial intelligence (AI) program developed by DeepMind, a subsidiary of Alphabet, which performs predictions of protein structure. It is designed using deep learning techniques."
+  }
+}
